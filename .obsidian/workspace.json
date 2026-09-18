@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#维护项目",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -186,8 +187,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "16e7d9fbd45d1d7d",
+  "active": "7f849e1b1dd2d76e",
   "lastOpenFiles": [
+    "新建 文本文档.txt",
     "res/Quicker_20260918_160356.png",
     "res/Quicker_20260918_160141.png",
     "res/Quicker_20260918_160116.png",

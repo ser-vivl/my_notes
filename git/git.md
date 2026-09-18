@@ -1,25 +1,45 @@
-工作区
-
-暂存区
-
-本地仓库
-
-远程仓库
-
-  
+帮助学习git的攒劲小网站，直接看教程，提到的暂存区工作区容易让人困惑。
 
 [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_CN)
 
-### 创建仓库命令
 
-下表列出了 git 创建仓库的命令：
+# 创建一个git项目的流程
+在GitHub上创建一个空仓库，连 readme 也不要有；
+在本地创建项目并 git init ；
+本地 add 全部，并 commit 一次；
+关联到远程仓库；
+push。
+```
+git init
+# 追踪所有文件，每次有新文件产生都要 add 一下
+git add . 
+# 每次初始化都要求 add 和 commit 一下
+git commit -m "初始提交" 
+git remote add origin https://github.com/ser_vivl/my_notes.git
+# 将主分支命名为 main，初始可能是 master，而 github 上默认是 main
+git branch -M main 
 
-|命令|说明|
-|---|---|
-|`git init`|初始化仓库|
-|`git clone`|拷贝一份远程仓库，也就是下载一个项目。|
+# 将本地的 main 和远程的 main 关联起来，执行后会出现账号认证和 token 认证
+git push -u origin main 
+# 这个项目是 obsidian 的仓库，所以需要配置 .gitignore 文件，ai吧
+```
 
 ---
+# 维护项目
+```
+# 在一台新电脑先 clone
+git clone https://github.com/ser_vivl/my_notes.git
+# 否则使用 pull，将项目更新
+git pull
+
+# 更新项目。。。
+
+# 更新远程仓库
+git add .
+git commit -m "更新笔记"
+git push
+```
+
 
 ## 提交与修改
 
@@ -120,3 +140,5 @@ git rebase main
 git checkout main
 git rebase bugFix
 ![[Quicker_20260918_160356.png]]
+
+
