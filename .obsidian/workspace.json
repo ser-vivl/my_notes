@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "8901ab56976026fc",
+            "id": "75ecc9510628bbe2",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "res/Quicker_20260918_145834.png"
+                "file": "spring6课件/spring6.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Quicker_20260918_145834"
+              "icon": "lucide-file",
+              "title": "spring6"
             }
           }
         ]
@@ -67,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#维护项目",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,12 +93,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "3bb0180c11188645",
@@ -112,8 +113,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "xx.md.md",
-                "collapseAll": false,
+                "file": "spring6课件/java.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -187,15 +188,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "7f849e1b1dd2d76e",
+  "active": "16e7d9fbd45d1d7d",
   "lastOpenFiles": [
-    "新建 文本文档.txt",
-    "res/Quicker_20260918_160356.png",
-    "res/Quicker_20260918_160141.png",
-    "res/Quicker_20260918_160116.png",
-    "res/Quicker_20260918_145834.png",
+    "spring6课件/java.md",
     "git/git.md",
-    "res/Quicker_20260918_145927.png",
+    "spring6课件/spring6.md",
+    "spring6课件/images/spring6/image-20221031165108003.png",
+    "spring6课件/images/spring6/image-20221031155411978.png",
+    "spring6课件/images/spring6/2097896352.png",
+    "spring6课件/images/spring6/img027.png",
+    "spring6课件/images/spring6/img023.png",
+    "spring6课件/images/spring6/img025.png",
+    "spring6课件/images/spring6/img026.png",
+    "spring6课件/images/spring6/img021.png",
+    "spring6课件/images/spring6/img024.png",
+    "spring6课件/images/spring6/img019.png",
+    "spring6课件/images/spring6",
+    "spring6课件/images",
+    "spring6课件",
+    "新建 文本文档.txt",
     "res",
     "新建文件夹",
     "git.md",
