@@ -15,7 +15,7 @@ git init
 git add . 
 # 每次初始化都要求 add 和 commit 一下
 git commit -m "初始提交" 
-git remote add origin https://github.com/ser_vivl/my_notes.git
+git remote add origin https://github.com/ser-vivl/my_notes.git
 # 将主分支命名为 main，初始可能是 master，而 github 上默认是 main
 git branch -M main 
 
@@ -28,7 +28,7 @@ git push -u origin main
 # 维护项目
 ```
 # 在一台新电脑先 clone
-git clone https://github.com/ser_vivl/my_notes.git
+git clone https://github.com/ser-vivl/my_notes.git
 # 否则使用 pull，将项目更新
 git pull
 
