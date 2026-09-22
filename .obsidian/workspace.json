@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git.md",
+                "file": "spring6课件/java.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "java"
             }
           },
           {
@@ -55,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -188,9 +190,9 @@
   },
   "active": "16e7d9fbd45d1d7d",
   "lastOpenFiles": [
-    "spring6课件/java.md",
-    "git/git.md",
     "spring6课件/spring6.md",
+    "git/git.md",
+    "spring6课件/java.md",
     "spring6课件/images/spring6/image-20221031165108003.png",
     "spring6课件/images/spring6/image-20221031155411978.png",
     "spring6课件/images/spring6/2097896352.png",

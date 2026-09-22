@@ -41,6 +41,25 @@ git push
 ```
 
 
+要是本地有修改，而又想要拉取远程仓库时：
+```
+# 1.我想要这次修改
+# 做法：先提交，再 pull
+git add git/git.md
+git commit -m "aa"
+git pull
+
+# 2.我不需要修改（丢弃 A 上的改动）
+git checkout -- git/git.md     # 丢弃该文件的本地修改
+git pull
+
+# 3.不知道要不要修改（先保留，再决定）
+git stash              # A 的改动存入 stash，工作区变干净
+git pull               # 拉取远程
+git stash pop          # 重新应用 A 的改动，此时可以对比
+```
+
+
 ## 提交与修改
 
 Git 的工作就是创建和保存你的项目的快照及与之后的快照进行对比。
